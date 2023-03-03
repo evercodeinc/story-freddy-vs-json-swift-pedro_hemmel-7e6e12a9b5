@@ -5,6 +5,7 @@ class ServiceTests: XCTestCase {
 
     func testFetchList() throws {
         
+        
         let network = NetworkMock()
         let service = Service(network: network)
         
